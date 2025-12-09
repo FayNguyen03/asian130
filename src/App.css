@@ -2,8 +2,11 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background: linear-gradient(180deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
-  background-attachment: fixed;
+  background-image: url('background.gif');
+  background:
+    linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.4)), 
+    url('background.gif') center/cover repeat;
+  font-family: 'Playfair Display', serif;
 }
 
 .main-content {

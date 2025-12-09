@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import './Section.css';
-import './EastVsWest.css';
+import './css/Section.css';
+import './css/EastVsWest.css';
 
 const EastVsWest = () => {
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
@@ -46,7 +46,7 @@ const EastVsWest = () => {
   return (
     <section className="section east-vs-west-section">
       <div className="container">
-        <h2 className="section-title">East vs West: A Comparative Analysis</h2>
+        <h2 className="section-title">{"East vs West: A Comparative Analysis".toUpperCase()}</h2>
         <p className="section-intro">
           This interactive comparison highlights the fundamental differences between Asian and Western 
           superhero narratives, emphasizing the collectivism versus individualism divide.

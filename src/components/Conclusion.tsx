@@ -1,10 +1,10 @@
-import './Section.css';
+import './css/Section.css';
 
 const Conclusion = () => {
   return (
     <section className="section conclusion-section">
       <div className="container">
-        <h2 className="section-title">Conclusion</h2>
+        <h2 className="section-title">CONCLUSION</h2>
         <div className="content">
           <div className="conclusion-main">
             <p className="conclusion-lead">
@@ -13,7 +13,7 @@ const Conclusion = () => {
             </p>
             
             <div className="conclusion-points">
-              <div className="conclusion-point">
+              <div className="section-note">
                 <h3>Collective Identity</h3>
                 <p>
                   Unlike Western superheroes who often operate as individuals transcending cultural 
@@ -23,7 +23,7 @@ const Conclusion = () => {
                 </p>
               </div>
 
-              <div className="conclusion-point">
+              <div className="section-note">
                 <h3>Navigating Modernization</h3>
                 <p>
                   Through their narratives, Asian superhero stories provide a framework for understanding 
@@ -34,7 +34,7 @@ const Conclusion = () => {
                 </p>
               </div>
 
-              <div className="conclusion-point">
+              <div className="section-note">
                 <h3>Technology as Cultural Expression</h3>
                 <p>
                   The technological elements in Asian superhero narratives—from mecha systems to 
@@ -44,7 +44,7 @@ const Conclusion = () => {
                 </p>
               </div>
 
-              <div className="conclusion-point">
+              <div className="section-note">
                 <h3>The Doctrine of Unity</h3>
                 <p>
                   At the heart of Asian superhero narratives lies a doctrine of unity: the belief that 

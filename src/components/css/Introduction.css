@@ -1,0 +1,83 @@
+/* Introduction Styles */
+.introduction-section .lead {
+    line-height: 1.9;
+    margin-bottom: 2rem;
+    color: rgba(255, 255, 255, 0.95);
+    text-align: center;
+    font-style: italic;
+  }
+  
+.lead  {
+    font-weight: 1000;
+    color: #fb6376;
+    font-size: 1.5rem;
+}
+
+.section-note h3 {
+    color: #fff;
+    margin-top: 0;
+    margin-top: 10;
+    font-size: 50px;
+    text-align: center;
+}
+
+.section-note p {
+    color: #fff;
+    margin-top: 0;
+    margin-top: 10;
+    font-size: 20px;
+    text-align: center;
+}
+
+.key-points {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+
+.key-points h3 {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.key-points ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.key-points li {
+    padding: 0.75rem 0;
+    padding-left: 2rem;
+    position: relative;
+}
+
+.key-points li::before {
+    content: "▸";
+    position: absolute;
+    left: 0;
+    color: #fb6376;
+    font-weight: bold;
+}
+
+.hero-glow {
+    position: relative;
+    font-weight: 1000;
+    font-size: 2rem;
+    color: #fb6376;
+    text-shadow: 0 0 10px rgba(241, 143, 1, 0.6), 0 0 20px rgba(0, 110, 144, 0.4);
+    animation: pulse-glow 2.5s ease-in-out infinite;
+}
+
+.scifi-glow {
+    position: relative;
+    font-weight: 1000;
+    font-size: 1.5rem;
+    color: #03A062;
+    text-shadow: 0 0 10px rgb(29, 25, 25), 0 0 20px black;
+}
+  
+@keyframes pulse-glow {
+    0%   { text-shadow: 0 0 6px rgba(241,143,1,0.5), 0 0 14px rgba(0,110,144,0.35); }
+    50%  { text-shadow: 0 0 14px rgba(241,143,1,0.9), 0 0 28px rgba(0,110,144,0.6); }
+    100% { text-shadow: 0 0 6px rgba(241,143,1,0.5), 0 0 14px rgba(0,110,144,0.35); }
+}

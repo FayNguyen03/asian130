@@ -1,0 +1,66 @@
+.bibliography-intro {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.9);
+}
+  
+.bibliography-categories {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.bibliography-category {
+    background: rgba(255, 255, 255, 0.4);
+    padding: 2.5rem;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.category-title {
+    color: #fff9ec;
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid rgba(251, 99, 118, 0.8);
+}
+
+.bibliography-list {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.bibliography-item {
+    padding: 1rem 0;
+    padding-left: 1.5rem;
+    color: rgba(255,255,255, 1);
+    font-size: 1.2rem;  
+    position: relative;
+    line-height: 1.8;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.bibliography-item:last-child {
+    border-bottom: none;
+}
+
+.bibliography-item::before {
+    position: absolute;
+    left: 0;
+    font-size: 1rem;
+}
+
+.bibliography-note {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding: 1.5rem;
+    background: rgba(251, 99, 118, 0.3);
+    border-radius: 8px;
+    border-left: 4px solid #fb6376;
+    font-size: 0.95rem;
+    line-height: 1.7;
+}

@@ -1,41 +1,30 @@
 import { useState } from 'react';
-import Navigation from './components/Navigation';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import NavigationBar from './components/NavigationBar';
 import Introduction from './components/Introduction';
-import CaseStudies from './components/CaseStudies';
+import Examples from './components/ExampleS';
 import EastVsWest from './components/EastVsWest';
 import Conclusion from './components/Conclusion';
 import Bibliography from './components/Bibliography';
+import Footer from './components/Footer';
+import './main';
 import './App.css';
 
 function App() {
-  const [activeTab, setActiveTab] = useState('introduction');
-
-  const renderContent = () => {
-    switch (activeTab) {
-      case 'introduction':
-        return <Introduction />;
-      case 'case-studies':
-        return <CaseStudies />;
-      case 'east-vs-west':
-        return <EastVsWest />;
-      case 'conclusion':
-        return <Conclusion />;
-      case 'bibliography':
-        return <Bibliography />;
-      default:
-        return <Introduction />;
-    }
-  };
 
   return (
     <div className="app">
-      <Navigation activeTab={activeTab} onTabChange={setActiveTab} />
+      <NavigationBar />
       <main className="main-content">
-        {renderContent()}
-      </main>
-      <footer className="footer">
-        <p>Collective Warriors From The East: Technology, Society, and The Doctrine of Unity</p>
-      </footer>
+        <Routes>
+          <Route path="/" element={<Introduction />} />
+          <Route path="/examples" element={<Examples />} />
+          <Route path="/east-vs-west" element={<EastVsWest />} />
+          <Route path="/conclusion" element={<Conclusion />} />
+          <Route path="/bibliography" element={<Bibliography />} />
+        </Routes>
+    </main>
+      <Footer />
     </div>
   );
 }
