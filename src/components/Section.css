@@ -1,0 +1,336 @@
+.section {
+  min-height: calc(100vh - 200px);
+  padding: 3rem 0;
+  animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 2rem;
+  text-align: center;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.section-intro {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  margin-bottom: 2rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content {
+  color: rgba(255, 255, 255, 0.9);
+  line-height: 1.8;
+}
+
+/* Introduction Styles */
+.introduction-section .lead {
+  font-size: 1.2rem;
+  line-height: 1.9;
+  margin-bottom: 2rem;
+  color: rgba(255, 255, 255, 0.95);
+  text-align: center;
+  font-style: italic;
+}
+
+.main-argument {
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.15) 0%, rgba(118, 75, 162, 0.15) 100%);
+  padding: 2rem;
+  border-radius: 12px;
+  border-left: 4px solid #667eea;
+  margin: 2rem 0;
+}
+
+.main-argument h3 {
+  color: #fff;
+  margin-top: 0;
+  font-size: 1.5rem;
+}
+
+.key-points {
+  margin-top: 2rem;
+}
+
+.key-points h3 {
+  color: #fff;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.key-points ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.key-points li {
+  padding: 0.75rem 0;
+  padding-left: 2rem;
+  position: relative;
+}
+
+.key-points li::before {
+  content: "▸";
+  position: absolute;
+  left: 0;
+  color: #667eea;
+  font-weight: bold;
+}
+
+/* Case Studies Styles */
+.case-study {
+  margin-bottom: 4rem;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 12px;
+  padding: 2rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.case-study:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.case-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.case-title {
+  color: #fff;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.case-country {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.case-content {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+.case-image-placeholder {
+  width: 100%;
+  height: 200px;
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.2) 0%, rgba(118, 75, 162, 0.2) 100%);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px dashed rgba(255, 255, 255, 0.3);
+}
+
+.placeholder-text {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+.case-text h4 {
+  color: #fff;
+  font-size: 1.3rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.case-text ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.case-text li {
+  padding: 0.5rem 0;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.case-text li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #667eea;
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+/* Conclusion Styles */
+.conclusion-section {
+  background: linear-gradient(180deg, transparent 0%, rgba(102, 126, 234, 0.05) 100%);
+}
+
+.conclusion-lead {
+  font-size: 1.5rem;
+  line-height: 1.9;
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 3rem;
+  padding: 2rem;
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.2) 0%, rgba(118, 75, 162, 0.2) 100%);
+  border-radius: 12px;
+  border: 2px solid rgba(102, 126, 234, 0.3);
+}
+
+.conclusion-points {
+  display: grid;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.conclusion-point {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 2rem;
+  border-radius: 12px;
+  border-left: 4px solid #667eea;
+}
+
+.conclusion-point h3 {
+  color: #fff;
+  margin-top: 0;
+  font-size: 1.4rem;
+}
+
+.final-thought {
+  margin-top: 3rem;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  font-style: italic;
+  font-size: 1.1rem;
+  line-height: 1.9;
+}
+
+/* Bibliography Styles */
+.bibliography-intro {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.bibliography-categories {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.bibliography-category {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 2rem;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.category-title {
+  color: #fff;
+  font-size: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid rgba(102, 126, 234, 0.5);
+}
+
+.bibliography-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.bibliography-item {
+  padding: 1rem 0;
+  padding-left: 1.5rem;
+  position: relative;
+  line-height: 1.8;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.bibliography-item:last-child {
+  border-bottom: none;
+}
+
+.bibliography-item::before {
+  content: "📚";
+  position: absolute;
+  left: 0;
+  font-size: 1rem;
+}
+
+.bibliography-note {
+  margin-top: 3rem;
+  padding: 1.5rem;
+  background: rgba(102, 126, 234, 0.1);
+  border-radius: 8px;
+  border-left: 4px solid #667eea;
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 1rem;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .case-content {
+    grid-template-columns: 1fr;
+  }
+
+  .case-image-placeholder {
+    height: 150px;
+  }
+
+  .conclusion-lead {
+    font-size: 1.2rem;
+    padding: 1.5rem;
+  }
+
+  .main-argument,
+  .conclusion-point,
+  .bibliography-category {
+    padding: 1.5rem;
+  }
+}
+
+
