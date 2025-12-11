@@ -129,10 +129,9 @@ const Examples = () => {
                 <strong>Key Characteristics:</strong>
               </p>
               <ul>
-                <li>Integration of Vietnamese mythology and folklore into the hero's identity</li>
-                <li>Futuristic armor that incorporates traditional design elements</li>
+                <li>Integration of Chinese mythology (Metal, Wood, Water, Fire, Earth) and folklore into the hero's identity</li>
+                <li>None of the standard heroes can succeed alone; their powers are designed to be used in cooperative elemental combinations for maximum effect and get to the best form: Emperor Armor</li>
                 <li>The hero as a bridge between past and future</li>
-                <li>Technology as a means of preserving rather than erasing cultural identity</li>
               </ul>
               <p>
                 This narrative addresses Vietnam's unique position as a nation balancing rapid 

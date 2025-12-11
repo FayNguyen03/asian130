@@ -4,7 +4,7 @@ import './css/EastVsWest.css';
 
 const EastVsWest = () => {
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
-
+  
   const comparisonData = [
     {
       category: 'Philosophy',
@@ -78,11 +78,9 @@ const EastVsWest = () => {
                 </div>
                 <div className="comparison-content">
                   <div className="comparison-cell east-cell">
-                    <span className="cell-icon">⚡</span>
                     {item.east}
                   </div>
                   <div className="comparison-cell west-cell">
-                    <span className="cell-icon">🦸</span>
                     {item.west}
                   </div>
                 </div>

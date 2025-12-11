@@ -35,12 +35,13 @@ const Conclusion = () => {
               </div>
 
               <div className="section-note">
-                <h3>Technology as Cultural Expression</h3>
+                <h3>Cultural Expression through Technology</h3>
                 <p>
-                  The technological elements in Asian superhero narratives—from mecha systems to 
-                  bio-electric powers to mythologically-infused armor—are not mere aesthetic choices. 
-                  They represent the integration of technological advancement with cultural values, 
-                  showing that progress need not come at the cost of tradition.
+                  The technological elements in Asian superhero narratives, from mecha systems to 
+                  bio-electric powers to mythologically infused armor, are not only for aesthetic choices. 
+                  but also the integration of technological advancement with cultural values. This 
+                  shows that progress need not come at the cost of tradition. Instead, it can be a 
+                  means of preserving and strengthening cultural identity in the face of globalizing forces.
                 </p>
               </div>
 

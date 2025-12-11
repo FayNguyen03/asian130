@@ -49,56 +49,6 @@
   line-height: 1.8;
 }
 
-
-
-/* Conclusion Styles */
-.conclusion-section {
-  background: linear-gradient(180deg, transparent 0%, rgba(102, 126, 234, 0.05) 100%);
-}
-
-.conclusion-lead {
-  font-size: 1.5rem;
-  line-height: 1.9;
-  text-align: center;
-  color: #fff;
-  font-weight: 600;
-  margin-bottom: 3rem;
-  padding: 2rem;
-  background: linear-gradient(135deg, rgba(102, 126, 234, 0.2) 0%, rgba(118, 75, 162, 0.2) 100%);
-  border-radius: 12px;
-  border: 2px solid rgba(102, 126, 234, 0.3);
-}
-
-.conclusion-points {
-  display: grid;
-  gap: 2rem;
-  margin-bottom: 2rem;
-}
-
-.conclusion-point {
-  background: rgba(255, 255, 255, 0.05);
-  padding: 2rem;
-  border-radius: 12px;
-  border-left: 4px solid #667eea;
-}
-
-.conclusion-point h3 {
-  color: #fff;
-  margin-top: 0;
-  font-size: 1.4rem;
-}
-
-.final-thought {
-  margin-top: 3rem;
-  padding: 2rem;
-  background: rgba(255, 255, 255, 0.03);
-  border-radius: 12px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  font-style: italic;
-  font-size: 1.1rem;
-  line-height: 1.9;
-}
-
 /* Responsive Design */
 @media (max-width: 768px) {
   .container {
@@ -132,7 +82,7 @@
 .section-note {
   margin-top: 2rem;
   margin-bottom: .5rem;
-  padding: 2rem;
+  padding: 2rem 1rem 2rem 1rem;
   background: rgba(251, 99, 118, 0.3);
   border-radius: 12px;
   border-left: 4px solid #fb6376;

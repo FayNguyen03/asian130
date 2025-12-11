@@ -16,7 +16,8 @@ const Bibliography = () => {
       items: [
         'Anwar, Joko, director. Gundala: Il Figlio Del Lampo. 2020.',
         'Do, Duc Muoi and Minh Long Pham, directors. Mighty Guardian: Lost Avian. Mighty Guardian, 7 Apr. 2025.',
-        'Watanabe, Katsuya, et al., directors. Samurai Sentai Shinkenger. 15 Feb. 2009.'
+        'Watanabe, Katsuya, et al., directors. Samurai Sentai Shinkenger. 15 Feb. 2009.',
+        'Zheng, Guowei, director. Amor Hero. 28 Mar. 2009.'
       ],
       icon: '🎬🎥'
     }
@@ -46,15 +47,6 @@ const Bibliography = () => {
                 </ul>
               </div>
             ))}
-          </div>
-
-          <div className="section-note">
-            <p>
-              <strong>Note:</strong> This bibliography represents a selection of key sources that 
-              inform the analysis presented in this website. Additional research and cultural 
-              context from primary sources (films, television series, comics) have also contributed 
-              to the development of these arguments.
-            </p>
           </div>
         </div>
       </div>

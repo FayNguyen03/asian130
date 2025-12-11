@@ -97,13 +97,13 @@
 }
 
 .east-cell {
-  background: rgba(102, 126, 234, 0.1);
-  border-left: 3px solid #667eea;
+  background: rgba(255, 107, 107, 0.1);
+  border-left: 3px solid #ff6b6b;
 }
 
 .west-cell {
-  background: rgba(255, 107, 107, 0.1);
-  border-left: 3px solid #ff6b6b;
+  background: rgba(255, 203, 119, 0.1);
+  border-left: 3px solid #FFCB77;
 }
 
 .cell-icon {

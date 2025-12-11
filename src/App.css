@@ -2,7 +2,6 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background-image: url('background.gif');
   background:
     linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.4)), 
     url('background.gif') center/cover repeat;
