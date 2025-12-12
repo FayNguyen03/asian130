@@ -16,6 +16,11 @@ const Bibliography = () => {
       items: [
         'Anwar, Joko, director. Gundala: Il Figlio Del Lampo. 2020.',
         'Do, Duc Muoi and Minh Long Pham, directors. Mighty Guardian: Lost Avian. Mighty Guardian, 7 Apr. 2025.',
+        'Morota, Satoshi, et al., directors. GoGo Sentai Boukenger. 19 Feb. 2006.',
+        'Nakazawa, Shojiro, et al., directors. Juken Sentai Gekiranger. 18 Feb. 2007.',
+        'Watanabe, Katsuya, et al., directors. Tokusou Sentai Dekaranger. 15 Feb. 2004.',
+        'Watanabe, Katsuya, et al., directors. Mahou Sentai Magiranger. 13 Feb. 2005.',
+        'Watanabe, Katsuya, et al., directors. Engine Sentai Go-Onger. 17 Feb. 2008.',
         'Watanabe, Katsuya, et al., directors. Samurai Sentai Shinkenger. 15 Feb. 2009.',
         'Zheng, Guowei, director. Amor Hero. 28 Mar. 2009.'
       ],

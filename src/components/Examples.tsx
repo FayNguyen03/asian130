@@ -1,5 +1,6 @@
 import './css/Section.css';
 import './css/Examples.css';
+import PhotoGallery from './PhotoGallery';
 const Examples = () => {
   return (
     <section className="section case-studies-section">
@@ -40,6 +41,40 @@ const Examples = () => {
               </ul>
             </div>
           </div>
+          <PhotoGallery 
+            images={[
+              {
+                src: "SuperSentai/SPDPoster.webp",
+                alt: "SPD Dekaranger Poster",
+                description: "Dekaranger (2004) - A police-themed series showcasing law enforcement teamwork and justice to protect the Earth and the whole universe."
+              },
+              {
+                src: "SuperSentai/Magiranger_Poster.webp",
+                alt: "Magiranger Poster",
+                description: "Magiranger (2005) - A magic-themed series where family bonds and magical cooperation are central."
+              },
+              {
+                src: "SuperSentai/Boukenger_poster.webp",
+                alt: "Boukenger Poster",
+                description: "Boukenger (2006) - An adventure-themed series emphasizing treasure hunting, exploration, and collective problem-solving."
+              },
+              {
+                src: "SuperSentai/GekiPoster.webp",
+                alt: "Gekiranger Poster",
+                description: "Gekiranger (2007) - A martial arts-themed series emphasizing physical discipline and teamwork."
+              },
+              {
+                src: "SuperSentai/Go-Onger_Poster.webp",
+                alt: "Go-Onger Poster",
+                description: "Go-Onger (2008) - An automotive-themed series addressing environmental issues through team cooperation."
+              },
+              {
+                src: "SuperSentai/Shinkenger_Poster.webp",
+                alt: "Shinkenger Poster",
+                description: "Shinkenger (2009) - A samurai-themed series blending traditional Japanese warrior values and aesthetics with modern teamwork."
+              }
+            ]}
+          />
         </div>
 
         <div className="case-study">
@@ -67,6 +102,7 @@ const Examples = () => {
               </ul>
             </div>
           </div>
+          
         </div>
 
         <div className="case-study">
@@ -76,9 +112,7 @@ const Examples = () => {
           </div>
           <div className="case-content">
             <div className="case-image-placeholder">
-              <div>
                 <img className="image-with-caption" src={"MightyGuardian/logo.webp"} alt="Mighty Guardian" style={{ width: '100%', height: '100%' }}/>
-                </div>
             </div>
             <div className="case-text">
               <h4>Vietnamese Mythology Meets Futuristic Armor</h4>
@@ -94,15 +128,43 @@ const Examples = () => {
                 <strong>Key Characteristics:</strong>
               </p>
               <ul>
-                <li>Integration of Vietnamese mythology (Hung King, Son Tinh, etc.) and mysterious monsters from folklore () into the hero's identity</li>
-                <li>Futuristic armor that incorporates traditional design elements </li>
-                <li>The hero as a bridge between past and future</li>
-                <li>The character development of </li>
+                <li>Integration of Vietnamese mythology (Hung King, Son Tinh, etc.) and mysterious monsters from folklore (Wicked Cobra, Wicked Rooster, etc) into the narrative</li>
+                <li>Futuristic armor and weaponary that incorporates traditional design elements </li>
+                <li>The character development of Quan (Mighty Guardian Lost Avian XIX) from a undetermined and aimless person to become more responsible and got the acceptance from the previous Mighty Guardian Lost Avian XVII (Hung King) to hold the responsibility to protect Vietnam from the threat of the mysterious monsters from folklore.</li>
+                <li>Collaboration between the Mighty Guardian, Mighty Guardian Alpine Deity, and some new Guardians</li>
+                <li>Effort of the police officers to protect the public and the environment from the threat of the mysterious monsters from folklore.</li>
               </ul>
-              <p>
-              </p>
             </div>
           </div>
+          <PhotoGallery 
+              images={[
+                {
+                  src: "MightyGuardian/poster.webp",
+                  alt: "Mighty Guardian Poster",
+                  description: "Poster of Mighty Guardian: Lost Avian"
+                },
+                {
+                  src: "MightyGuardian/ChienBinhLacHong.webp",
+                  alt: "Mighty Guardian Lost Avian",
+                  description: "Mighty Guardian Lost Avian XIX"
+                },
+                {
+                  src: "MightyGuardian/CorvusGuardian.webp",
+                  alt: "Corvus Guardian Poster",
+                  description: "A new Guardian that is a combination of the Wicked Corvus's spirit and a disabled person"
+                },
+                {
+                  src: "MightyGuardian/AlpineDeity.webp",
+                  alt: "Mighty Guardian Alpine Deity Poster",
+                  description: "Son of the legendary Alpine Deity (Sơn Tinh), grandson of the Mighty Guardian Lost Avian XVII (Hung King)"
+                },
+                {
+                  src: "MightyGuardian/Police.webp",
+                  alt: "Law Enforcement Poster",
+                  description: "Law Enforcement with Enhanced Technology"
+                }
+              ]}
+            />
         </div>
 
         <div className="case-study">
@@ -115,28 +177,54 @@ const Examples = () => {
               <img src={"AmorHero/logo.png"} alt="Armor Hero" style={{ width: '100%', height: '100%', objectFit: 'contain' }}/>
             </div>
             <div className="case-text">
-              <h4>Mythology Meets Futuristic Armor</h4>
+              <h4>Cultural Expression through Technology</h4>
               <p>
-               
+                Armor Hero exemplifies the inspiration of ancient cosmology with futuristic weaponry. Instead of relying on arbitrary scientific accidents, the team's structure is strictly dictated by the Five Elements philosophy (五行): Fire - Dragon - South, Wood - Eagle - East, Water - Rhino - North, Metal - Mastiff - West, and Earth - Tiger - Center. Each hero represents a gear in a universal cycle. Each of them is vulnerable and has their own trauma and weaknesses.  But together they represent the "Grand Unity" of the universe. Furthermore, the narrative positions environmental issues as the primary antagonist, with villains frequently originating from industrial pollutants. These transform the technological guardians into a environmental protective force, using ancient elemental wisdom to heal the scars left by rapid and irresponsible modernization.
               </p>
               <p>
                 <strong>Key Characteristics:</strong>
               </p>
               <ul>
-                <li>Integration of Chinese mythology (Metal, Wood, Water, Fire, Earth) and folklore into the hero's identity</li>
+                <li>Integration of Chinese ancient cosmology (Gold, Wood, Water, Fire, Earth) and folklore into the hero's identity</li>
                 <li>None of the standard heroes can succeed alone; their powers are designed to be used in cooperative elemental combinations for maximum effect and get to the best form: Emperor Armor</li>
-                <li>The hero as a bridge between past and future</li>
-                <li>Technology as a means of preserving rather than erasing cultural identity</li>
               </ul>
-              <p>
-                This narrative addresses Vietnam's unique position as a nation balancing rapid 
-                technological advancement with deep cultural traditions. The Mighty Guardian 
-                demonstrates that modernization need not come at the cost of cultural heritage, 
-                instead showing how technology can be used to strengthen and preserve national 
-                identity in the face of globalizing forces.
-              </p>
             </div>
+            
           </div>
+          <PhotoGallery 
+              images={[
+                {
+                  src: "AmorHero/Fire.webp",
+                  alt: "Fire Dragon Hero Poster",
+                  description: "Fire (Dragon) Hero: Represents the South, passion, and leadership"
+                },
+                {
+                  src: "AmorHero/Wood.webp",
+                  alt: "Wood Eagle HeroPoster",
+                  description: "Wood (Eagle) Hero: Represents the East, speed, and agility"
+                },
+                {
+                  src: "AmorHero/Water.webp",
+                  alt: "Water Rhino Poster",
+                  description: "Water (Rhino) Hero: Represents the North, defense, and adaptability"
+                },
+                {
+                  src: "AmorHero/Gold.webp",
+                  alt: "Metal Mastiff Poster",
+                  description: "Metal (Mastif) Hero: Represents the West, offense, and strength"
+                },
+                {
+                  src: "AmorHero/Earth.webp",
+                  alt: "Earth Tiger Poster",
+                  description: "Earth (Tiger) Hero: Represents the Center, stability, and grounding"
+                },
+                {
+                  src: "AmorHero/ArmorHeroEmperor.webp",
+                  alt: "Emperor Armor Poster",
+                  description: "The ultimate form of the Armor Heroes: Emperor Armor"
+                }
+              ]}
+            />
         </div>
       </div>
     </section>

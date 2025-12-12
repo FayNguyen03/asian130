@@ -49,11 +49,11 @@ const EastVsWest = () => {
         <div className="comparison-container">
           <div className="comparison-header">
             <div className="comparison-column-header east-header">
-              <h3>Asian Model</h3>
+              <h3>Asian Superheroes</h3>
               <p>Collectivism</p>
             </div>
             <div className="comparison-column-header west-header">
-              <h3>Western Model</h3>
+              <h3>Western Superheroes</h3>
               <p>Individualism</p>
             </div>
           </div>
