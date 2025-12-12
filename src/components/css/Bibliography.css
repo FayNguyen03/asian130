@@ -24,7 +24,7 @@
     margin-top: 0;
     margin-bottom: 1rem;
     padding-bottom: 0.5rem;
-    border-bottom: 2px solid rgba(251, 99, 118, 0.8);
+    border-bottom: 2px solid var(--light-blue-color);
 }
 
 .bibliography-list {

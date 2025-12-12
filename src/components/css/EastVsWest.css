@@ -22,13 +22,13 @@
 }
 
 .east-header {
-  background: linear-gradient(135deg, rgba(102, 126, 234, 0.2) 0%, rgba(118, 75, 162, 0.2) 100%);
-  border: 2px solid rgba(102, 126, 234, 0.4);
+  background: linear-gradient(135deg, var(--neutral-color) 0%, var(--light-blue-color) 100%);
+  border: 2px solid rgba(120,204,226, 0.4);
 }
 
 .west-header {
-  background: linear-gradient(135deg, rgba(255, 107, 107, 0.2) 0%, rgba(255, 159, 64, 0.2) 100%);
-  border: 2px solid rgba(255, 107, 107, 0.4);
+  background: linear-gradient(135deg, var(--dark-blue-color) 0%, var(--dark-color) 100%);
+  border: 2px solid rgba(0,80,102, 0.4);
 }
 
 .comparison-column-header h3 {
@@ -50,7 +50,7 @@
 
 .comparison-row {
   display: grid;
-  grid-template-columns: 1fr 2fr 2fr;
+  grid-template-columns: 1.5fr 4fr fr;
   gap: 1rem;
   padding: 1rem;
   border-radius: 8px;
@@ -83,7 +83,7 @@
 
 .comparison-content {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 3fr 3fr;
   gap: 1rem;
 }
 
@@ -97,13 +97,13 @@
 }
 
 .east-cell {
-  background: rgba(255, 107, 107, 0.1);
-  border-left: 3px solid #ff6b6b;
+  background: rgba(120,204,226, 0.1);
+  border-left: 3px solid var(--light-blue-color);
 }
 
 .west-cell {
-  background: rgba(255, 203, 119, 0.1);
-  border-left: 3px solid #FFCB77;
+  background: rgba(0,80,102, 0.1);
+  border-left: 3px solid var(--dark-blue-color);
 }
 
 .cell-icon {

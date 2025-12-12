@@ -9,17 +9,17 @@ const EastVsWest = () => {
     {
       category: 'Philosophy',
       east: 'Collective responsibility and group harmony',
-      west: 'Individual achievement and personal power'
+      west: 'Individual achievement and personal extraordinary power'
     },
     {
       category: 'Power Source',
-      east: 'Synchronization, teamwork, and unity',
-      west: 'Individual strength and personal abilities'
+      east: 'Power is typically bestowed by an organization, a higher authority, or through an inherited legacy. The hero must often undergo a test or rite of passage to prove they are worthy of the equipment or mantle, emphasizing suitability for a pre-existing duty.',
+      west: "Power is often achieved through personal exploration, scientific self-experimentation (e.g., Iron Man, Hulk, Spider-Man), or random accident. The hero's moral journey to accept the power is often the primary conflict."
     },
     {
       category: 'Hero Structure',
-      east: 'Teams and groups working together',
-      west: 'Lone heroes or loosely connected individuals'
+      east: 'Teams and groups working together seamlessly',
+      west: 'Individualistic heroes or loosely connected teams'
     },
     {
       category: 'Technology',
@@ -48,8 +48,7 @@ const EastVsWest = () => {
       <div className="container">
         <h2 className="section-title">{"East vs West: A Comparative Analysis".toUpperCase()}</h2>
         <p className="section-intro">
-          This interactive comparison highlights the fundamental differences between Asian and Western 
-          superhero narratives, emphasizing the collectivism versus individualism divide.
+          This interactive comparison highlights the fundamental differences between <strong>Asian</strong> and <strong>Western</strong> superhero narratives.
         </p>
 
         <div className="comparison-container">

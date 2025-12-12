@@ -8,31 +8,28 @@ const Introduction = () => {
         <div className="content">
 
         <p className="lead">
-          <span className="hero-glow">Superheroes</span> represent a prominent subgenre of <span className="scifi-glow">SCIENCE FICTION</span> since they often feature technologically enhanced guardians, giant mecha, and villainous creatures often created from environmental crises or disastrous scientific phenomena.
+          <span className="hero-glow">Superheroes</span> represent a prominent subgenre of <span className="scifi-glow">SCIENCE FICTION</span> since they often feature technologically enhanced guardians, giant mecha, and antagonists often created from environmental crises or disastrous scientific phenomena.
         </p>
-
+        <p style={{ marginTop: '2rem', textAlign: 'center' }}>
+          With global franchises (Marvel and DC Comics), the genre boasts a vast and diverse audience worldwide. Most of the heroes from the West often possess extraordinary power and operate independently, so they clearly embody the spirit of individualism.
+        </p>
           <div className="key-points">
             <h3><span className="hero-glow">Asian Superheroes</span></h3>
             <p>
-              Asian superheroes constitute a distinct sci-fi subgenre characterized by:
+              Asian superheroes consist of multiple sci-fi subgenres:
             </p>
             <ul>
               <li><strong>Technology:</strong> Advanced technological enhancements for armors and futuristic weaponry</li>
               <li><strong>Mecha:</strong> Giant robotic systems that require collaborative operation</li>
               <li><strong>Environmental Science Fiction:</strong> Villainous creatures born from environmental crises 
               or speculative scientific phenomena</li>
-              <li><strong>Kaiju/Monster Influence:</strong> Antagonists frequently take the form of massive, city-destroying monsters (Kaiju) or mystical creatures (Yokai) drawn from East Asian folklore, requiring not just physical strength but strategic, large-scale defense.</li>
+              <li><strong>Kaiju/Monster Influence:</strong> Antagonists frequently take the form of massive, city-destroying monsters (Kaiju) or mystical creatures drawn from Asian folklore, and possess physical strength but strategic, large-scale defense.</li>
             </ul>
 
             <div className="section-note">
-            <h3>Abstract</h3>
+            <h3>ABSTRACT</h3>
             <p>
-              <strong>Asian superhero narratives diverge from their Western counterparts, 
-              which traditionally prioritize individualism, by championing collective responsibility over 
-              individual power.</strong> These narratives use futuristic conflict between humanity and 
-              hostile forces to navigate specific cultural anxieties regarding rapid modernization and 
-              social cohesion as well as emphasize the hero's inseparability from their national, cultural, 
-              & historical context.
+            Asian superhero narratives fundamentally diverge from their Western counterparts by <strong>prioritizing collective responsibility over individual power</strong>. These narratives also use futuristic conflict between humanity and hostile forces to <strong>navigate specific cultural and societal anxieties regarding rapid modernization and social cohesion</strong>. Besides, the heroes’ backstories and powers often <strong>highlight their deep inseparability from their national, cultural, and historical context</strong>. 
             </p>
           </div>
             

@@ -8,7 +8,7 @@ const NavigationBar = () => {
 
   const navItems = [
     { path: '/', label: 'Introduction' },
-    { path: '/examples', label: 'Examples' },
+    { path: '/examples', label: 'Notable Series' },
     { path: '/east-vs-west', label: 'East vs West' },
     { path: '/conclusion', label: 'Conclusion' },
     { path: '/bibliography', label: 'Bibliography' },

@@ -11,7 +11,7 @@ footer.container {
   footer.container p {
     color: var(--text-white);
     font-size: 1.5rem;
-    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
     display: block;
     text-align: center;
     font-weight: 500;

@@ -20,6 +20,15 @@ const Bibliography = () => {
         'Zheng, Guowei, director. Amor Hero. 28 Mar. 2009.'
       ],
       icon: '🎬🎥'
+    },
+    {
+      category: 'Online References',
+      items: [
+        "Guild, James. “Review: ‘Gundala’ Is Another Joko Anwar Film Giving Voice to Indonesian Mythology.” Cinema Escapist, Cinema Escapist, 2 Sept. 2019, www.cinemaescapist.com/2019/09/review-gundala-joko-anwar-movie/.",,
+        "“Mighty Guardian.” Tokupedia, Fandom, Inc., tokusatsu.fandom.com/wiki/Mighty_Guardian.",
+        "“Super Sentai.” RangerWiki, Fandom, Inc., powerrangers.fandom.com/wiki/Super_Sentai."
+      ],
+      icon: '🌐🔍'
     }
   ];
 
@@ -28,7 +37,7 @@ const Bibliography = () => {
       <div className="container">
         <h2 className="section-title">BIBLIOGRAPHY</h2>
         <div className="content">
-        <div className="bibliography-note">
+        <div className="section-note">
           <p className="bibliography-intro">
             The following sources provide academic and cultural context for understanding Asian 
             superhero narratives and their relationship to technology, society, and cultural identity. The citations are formatted in MLA style.

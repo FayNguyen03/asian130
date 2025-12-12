@@ -7,17 +7,12 @@ const Conclusion = () => {
         <h2 className="section-title">CONCLUSION</h2>
         <div className="content">
           <div className="conclusion-main">
-            <p className="conclusion-lead">
-              The Asian superhero is not an isolated guardian but an inseparable part of their 
-              nation's history and culture.
-            </p>
             
             <div className="conclusion-points">
               <div className="section-note">
                 <h3>Collective Identity</h3>
                 <p>
-                  Unlike Western superheroes who often operate as individuals transcending cultural 
-                  boundaries, Asian superheroes are fundamentally embedded within their cultural and 
+                 Asian superheroes are fundamentally embedded within their cultural and 
                   national contexts. Their power and purpose derive from their connection to collective 
                   identity rather than individual exceptionalism.
                 </p>
@@ -35,9 +30,9 @@ const Conclusion = () => {
               </div>
 
               <div className="section-note">
-                <h3>Cultural Expression through Technology</h3>
+                <h3>Cultural and National Identity Expression through Technology</h3>
                 <p>
-                  The technological elements in Asian superhero narratives, from mecha systems to 
+                  The technological elements in Asian superhero, from mecha systems,
                   bio-electric powers to mythologically infused armor, are not only for aesthetic choices. 
                   but also the integration of technological advancement with cultural values. This 
                   shows that progress need not come at the cost of tradition. Instead, it can be a 
@@ -48,12 +43,10 @@ const Conclusion = () => {
               <div className="section-note">
                 <h3>The Doctrine of Unity</h3>
                 <p>
-                  At the heart of Asian superhero narratives lies a doctrine of unity: the belief that 
+                  At the heart of Asian superhero narratives lies a doctrine of unity. This doctrine is  about the belief that 
                   true power comes from collective action, that heroes are defined by their relationship 
                   to their community, and that the challenges of modernity can only be met through 
-                  cooperation and shared responsibility. This stands in stark contrast to the Western 
-                  model of individual heroism, offering an alternative vision of what it means to be 
-                  a guardian in an uncertain world.
+                  cooperation and shared responsibility.
                 </p>
               </div>
             </div>
