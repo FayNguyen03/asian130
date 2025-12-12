@@ -161,7 +161,7 @@ const Examples = () => {
                 {
                   src: "MightyGuardian/Police.webp",
                   alt: "Law Enforcement Poster",
-                  description: "Law Enforcement with Enhanced Technology"
+                  description: "Vietnamese Law Enforcement with Enhanced Technology to Fight Against the Villianous Forces"
                 }
               ]}
             />
@@ -211,7 +211,7 @@ const Examples = () => {
                 {
                   src: "AmorHero/Gold.webp",
                   alt: "Metal Mastiff Poster",
-                  description: "Metal (Mastif) Hero: Represents the West, offense, and strength"
+                  description: "Metal (Mastiff) Hero: Represents the West, offense, and strength"
                 },
                 {
                   src: "AmorHero/Earth.webp",
