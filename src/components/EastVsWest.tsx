@@ -9,7 +9,7 @@ const EastVsWest = () => {
     {
       category: 'Philosophy',
       east: 'Collective responsibility and group harmony',
-      west: 'Individual achievement and personal extraordinary power'
+      west: 'Individual exceptionalism, individualistic heroism, and personal sacrifice'
     },
     {
       category: 'Power Source',
@@ -23,22 +23,17 @@ const EastVsWest = () => {
     },
     {
       category: 'Technology',
-      east: 'Shared systems requiring cooperation (mecha, collective weapons)',
+      east: 'Shared systems requiring cooperation nad their amor and weaponary does have connection with each other',
       west: 'Personal enhancements and individual gadgets'
     },
     {
       category: 'Cultural Context',
       east: 'Inseparable from national/cultural identity',
-      west: 'Often transcends or operates outside cultural boundaries'
-    },
-    {
-      category: 'Conflict Resolution',
-      east: 'Through collective effort and social harmony',
-      west: 'Through individual heroism and personal sacrifice'
+      west: 'Often operates outside cultural boundaries'
     },
     {
       category: 'Modernization Anxiety',
-      east: 'Explicitly addressed through narrative',
+      east: 'Explicitly addressed through narrative as the central themes(Gundala - class disparity, social cohesion, political conspiracy; Mighty Guardian - identity crisis, corruption, etc.)',
       west: 'Less central to the narrative structure'
     }
   ];
@@ -88,15 +83,6 @@ const EastVsWest = () => {
           </div>
         </div>
 
-        <div className="key-takeaway">
-          <h3>Key Takeaway</h3>
-          <p>
-            The fundamental difference lies in the <strong>source of power</strong>: Asian superheroes 
-            derive strength from collective action and cultural unity, while Western heroes typically 
-            rely on individual capabilities. This reflects deeper cultural values about the relationship 
-            between the individual and society.
-          </p>
-        </div>
       </div>
     </section>
   );

@@ -15,7 +15,7 @@ const Examples = () => {
             <div className="case-image-placeholder">
               <img src={"SuperSentai/super_sentai_logo.png"} alt="Super Sentai Series" style={{ width: '100%', height: '100%', objectFit: 'contain' }}/>
             </div>
-            <div className="case-text">ß
+            <div className="case-text">
               <h4>Team Dynamics and Mecha System</h4>
               <p>
                 This 50-year-old series exemplifies the Japanese approach to superhero narratives through 
@@ -78,7 +78,6 @@ const Examples = () => {
             <div className="case-image-placeholder">
               <div>
                 <img className="image-with-caption" src={"MightyGuardian/logo.webp"} alt="Mighty Guardian" style={{ width: '100%', height: '100%' }}/>
-                <figcaption className="image-caption">Mighty Guardian Lost Avian</figcaption>             
                 </div>
             </div>
             <div className="case-text">
@@ -98,7 +97,7 @@ const Examples = () => {
                 <li>Integration of Vietnamese mythology (Hung King, Son Tinh, etc.) and mysterious monsters from folklore () into the hero's identity</li>
                 <li>Futuristic armor that incorporates traditional design elements </li>
                 <li>The hero as a bridge between past and future</li>
-                <li>Technology as a means of preserving rather than erasing cultural identity</li>
+                <li>The character development of </li>
               </ul>
               <p>
               </p>
@@ -118,8 +117,7 @@ const Examples = () => {
             <div className="case-text">
               <h4>Mythology Meets Futuristic Armor</h4>
               <p>
-                Mighty Guardian represents a unique approach to preserving national identity amidst 
-                rapid technological growth by fusing traditional mythology with futuristic armor.
+               
               </p>
               <p>
                 <strong>Key Characteristics:</strong>
@@ -128,6 +126,7 @@ const Examples = () => {
                 <li>Integration of Chinese mythology (Metal, Wood, Water, Fire, Earth) and folklore into the hero's identity</li>
                 <li>None of the standard heroes can succeed alone; their powers are designed to be used in cooperative elemental combinations for maximum effect and get to the best form: Emperor Armor</li>
                 <li>The hero as a bridge between past and future</li>
+                <li>Technology as a means of preserving rather than erasing cultural identity</li>
               </ul>
               <p>
                 This narrative addresses Vietnam's unique position as a nation balancing rapid 

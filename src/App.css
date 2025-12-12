@@ -4,7 +4,7 @@
   flex-direction: column;
   background:
     linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.3)), 
-    url('background.gif') center/cover repeat;
+    url('/background.gif') center/cover repeat;
   font-family: 'Science Gothic', sans-serif;
 }
 
